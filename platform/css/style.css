@@ -234,7 +234,7 @@
   color: #ffffff;
   cursor: pointer;
 }
-.container_register .register_form .form_box button.send.disabled {
+.container_register .register_form .form_box button.disabled {
   background: #f1f1f1;
   color: #999999;
   cursor: not-allowed;

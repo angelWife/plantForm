@@ -27,6 +27,10 @@ body a.link:hover {
 body a.link_text {
   color: #576b95;
 }
+body button,
+body input {
+  outline: none !important;
+}
 body .full_height {
   height: 100% !important;
 }

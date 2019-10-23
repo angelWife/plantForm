@@ -40,7 +40,7 @@
                     <input type="text" class="form-control form-control-sm">
                   </div>
                   <div class="col-sm-2">
-                    <button class="send">发送验证码</button>
+                    <button class="send" type="button" onclick="sendMark(this);">发送验证码</button>
                   </div>
                 </div>
                 <div class="row align-items-sm-start">
@@ -139,5 +139,30 @@
 
   </div>
 </body>
+<script>
+  $(function() {
+  });
+  function sendMark(obj) {
+    var _this=$(obj);
+    _this.removeAttr('onclick').addClass('disabled');
+    var sen=60,mytimer=null;
+    _this.text(sen+'s后在发送');
+    function setbtn() {
+      sen--;
+      if(sen==0) {
+        clearInterval(mytimer);
+        _this.text('发送验证码').attr('onclick','sendMark(this)').removeClass('disabled');
+        sen=60;
+      } else {
+
+        _this.text(sen+'s后在发送');
+      }
+    }
+    mytimer=setInterval(function() {
+      setbtn();
+    },1000);
+
+  }
+</script>
 
 </html>
