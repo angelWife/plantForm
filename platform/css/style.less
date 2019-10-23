@@ -234,31 +234,13 @@
 }
 
 .container_register {
-  .register-head {
-    height: 60px;
-    background: @white;
-    padding: 0 50px;
-    .boxShadow(1px, 1px, 5px, rgba(0, 0, 0, 0.1));
 
-    .logo {
-      font-size: 20px;
-      line-height: 60px;
-
-      a {
-        display: inline-block;
-
-        img {
-          height: 40px;
-        }
-      }
-    }
-  }
-  .register_body{
+  .register_body {
     width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
   }
+
   .register_form {
-   
     margin: 30px auto 50px;
     background: #fff;
     padding-bottom: 50px;
@@ -290,12 +272,13 @@
           color: @white;
           cursor: pointer;
         }
+
         &.disabled {
-            background: @gray_f1;
-            color: @gray_99;
-            cursor: not-allowed;
-            border-color: @gray_d6;
-          }
+          background: @gray_f1;
+          color: @gray_99;
+          cursor: not-allowed;
+          border-color: @gray_d6;
+        }
       }
 
       .form_btn {
@@ -316,4 +299,36 @@
       text-align: center;
     }
   }
+}
+
+.container_artical {
+  .artical_body {
+    width: 1200px;
+    margin: 0 auto;
+
+    .artical_main {
+      margin: 30px auto 50px;
+      background: #fff;
+      padding: 40px;
+      .radius();
+      .boxShadow(0, 0, 5px, rgba(0, 0, 0, 0.1));
+    }
+    .artical_msg{
+      padding: 90px 75px;
+      h1,h2,h3,h4,h5{
+        text-align: center;
+        margin-bottom:30px;
+      }
+      p,div{
+        text-indent: 2em;
+      }
+      img{
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+.container_index{
+  
 }

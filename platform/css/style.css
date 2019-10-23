@@ -183,23 +183,6 @@
 .container_login .login_product ul li .link_box a:last-child {
   border-right: 0;
 }
-.container_register .register-head {
-  height: 60px;
-  background: #ffffff;
-  padding: 0 50px;
-  -o-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-}
-.container_register .register-head .logo {
-  font-size: 20px;
-  line-height: 60px;
-}
-.container_register .register-head .logo a {
-  display: inline-block;
-}
-.container_register .register-head .logo a img {
-  height: 40px;
-}
 .container_register .register_body {
   width: 1200px;
   margin: 0 auto;
@@ -253,4 +236,34 @@
 .container_register .register_form .right {
   padding-top: 30px;
   text-align: center;
+}
+.container_artical .artical_body {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container_artical .artical_body .artical_main {
+  margin: 30px auto 50px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 0.3em;
+  -o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.container_artical .artical_body .artical_msg {
+  padding: 90px 75px;
+}
+.container_artical .artical_body .artical_msg h1,
+.container_artical .artical_body .artical_msg h2,
+.container_artical .artical_body .artical_msg h3,
+.container_artical .artical_body .artical_msg h4,
+.container_artical .artical_body .artical_msg h5 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.container_artical .artical_body .artical_msg p,
+.container_artical .artical_body .artical_msg div {
+  text-indent: 2em;
+}
+.container_artical .artical_body .artical_msg img {
+  max-width: 100%;
 }
