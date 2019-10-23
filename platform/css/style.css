@@ -1,0 +1,256 @@
+.container_login .login_head {
+  height: 80px;
+  line-height: 80px;
+}
+.container_login .login_head .logo a {
+  float: left;
+  margin-top: 10px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 28px;
+  color: #666666;
+}
+.container_login .login_head .logo a::before {
+  content: '';
+  background: url();
+}
+.container_login .login_head .top-nav {
+  text-align: right;
+}
+.container_login .login_head .top-nav a {
+  display: inline-block;
+  color: #666666;
+}
+.container_login .login_head .top-nav a i {
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+.container_login .login_modal {
+  height: 380px;
+  width: 100%;
+  max-width: 1920px;
+  background: url(../images/picture/banner.jpg) center center no-repeat;
+}
+.container_login .login_modal .container {
+  position: relative;
+}
+.container_login .login_modal .container .login_box {
+  width: 400px;
+  background: #fff;
+  border-radius: 0.3em;
+  height: 300px;
+  padding: 20px 35px;
+}
+.container_login .login_modal .container .login_box .title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.container_login .login_modal .container .login_box .input_modal {
+  border: 1px solid #e6e6e6;
+}
+.container_login .login_modal .container .login_box .input_modal .item {
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+}
+.container_login .login_modal .container .login_box .input_modal .item:first-child {
+  border-bottom: 1px solid #e6e6e6;
+}
+.container_login .login_modal .container .login_box .input_modal .item i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  text-align: center;
+  color: #999999;
+  font-size: 18px;
+}
+.container_login .login_modal .container .login_box .input_modal .item input {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: none;
+  border: 0;
+  padding: 0 10px 0 50px;
+}
+.container_login .login_modal .container .login_box .login_msg {
+  text-align: right;
+  margin-top: 10px;
+  color: #576b95;
+}
+.container_login .login_modal .container .login_box .login_btn {
+  margin: 20px 0 10px;
+}
+.container_login .login_modal .container .login_box .login_btn button {
+  font-size: 14px;
+  width: 160px;
+}
+.container_login .login_body {
+  padding: 20px 0 50px;
+}
+.container_login .notice_modal {
+  border: 1px solid #e6e6e6;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 0 20px;
+  line-height: 40px;
+  background-color: #fff;
+  position: relative;
+}
+.container_login .notice_modal .left {
+  color: #666666;
+}
+.container_login .notice_modal .left i {
+  color: #999999;
+}
+.container_login .notice_modal .center {
+  padding: 0 20px;
+}
+.container_login .notice_modal .center i {
+  color: #d6d6d6;
+  float: left;
+}
+.container_login .notice_modal .center a {
+  float: left;
+  max-width: 280px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.container_login .notice_modal .center span {
+  background: url(../images/common/long_pic.png) 0 -1906px no-repeat;
+  width: 18px;
+  height: 12px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 6px;
+}
+.container_login .notice_modal .more i {
+  font-size: 14px;
+  color: #999999;
+}
+.container_login .login_product {
+  margin-top: 30px;
+}
+.container_login .login_product .title {
+  font-size: 20px;
+}
+.container_login .login_product ul {
+  width: 102%;
+  list-style: none;
+}
+.container_login .login_product ul li {
+  float: left;
+  position: relative;
+  width: 313px;
+  height: 313px;
+  margin: 10px 10px 0 0;
+  border: 1px solid #e6e6e6;
+}
+.container_login .login_product ul li > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s linear 0s;
+  background: #ffffff;
+}
+.container_login .login_product ul li > div img {
+  width: 100%;
+  height: 100%;
+}
+.container_login .login_product ul li > div.msg {
+  opacity: 0;
+}
+.container_login .login_product ul li:hover .pic {
+  opacity: 0;
+}
+.container_login .login_product ul li:hover .msg {
+  opacity: 1;
+}
+.container_login .login_product ul li .link_box {
+  padding: 10px 0 0;
+}
+.container_login .login_product ul li .link_box a {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1;
+  padding: 0 10px;
+  border-right: 1px solid #d6d6d6;
+  color: #576b95;
+}
+.container_login .login_product ul li .link_box a:last-child {
+  border-right: 0;
+}
+.container_register .register-head {
+  height: 60px;
+  background: #ffffff;
+  padding: 0 50px;
+  -o-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.container_register .register-head .logo {
+  font-size: 20px;
+  line-height: 60px;
+}
+.container_register .register-head .logo a {
+  display: inline-block;
+}
+.container_register .register-head .logo a img {
+  height: 40px;
+}
+.container_register .register_body {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container_register .register_form {
+  margin: 30px auto 50px;
+  background: #fff;
+  padding-bottom: 50px;
+  border-radius: 0.3em;
+  -o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+.container_register .register_form h4 {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 50px;
+}
+.container_register .register_form .form_box {
+  width: 800px;
+  border-right: 1px solid #e6e6e6;
+}
+.container_register .register_form .form_box button.send {
+  background: #39b54a;
+  border: 1px solid #39b54a;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  width: 100px;
+  border-radius: 0.3em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.container_register .register_form .form_box button.send.disabled {
+  background: #f1f1f1;
+  color: #999999;
+  cursor: not-allowed;
+  border-color: #d6d6d6;
+}
+.container_register .register_form .form_box .form_btn {
+  width: 63%;
+  margin: 30px auto;
+  border-top: 1px solid #d6d6d6;
+  padding-top: 30px;
+  text-align: center;
+}
+.container_register .register_form .form_box .form_btn button {
+  width: 160px;
+}
+.container_register .register_form .right {
+  padding-top: 30px;
+  text-align: center;
+}
