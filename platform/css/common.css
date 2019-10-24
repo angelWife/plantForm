@@ -10,6 +10,7 @@ body {
   background: #ffffff;
   font-size: 14px;
   font-family: 'Microsoft YaHei', SimSun, SimHei;
+  color: #444;
 }
 body.body_bg {
   background: #f8f9fb;
@@ -63,6 +64,17 @@ body .full_height {
 }
 .com_head_1 .logo a img {
   height: 40px;
+}
+.com_modal {
+  background: #ffffff;
+  border-radius: 0.3em;
+  -o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  padding: 20px 30px 30px;
+}
+.com_modal h4 {
+  font-size: 18px;
 }
 .com_head_2 {
   background: #ffffff;
@@ -153,6 +165,7 @@ body .full_height {
 .com_head_2 .nav_box li .more_list .item a {
   line-height: 50px;
   display: inline-block;
+  cursor: pointer;
 }
 .com_foot {
   padding: 16px 0 40px;

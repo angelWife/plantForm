@@ -13,6 +13,7 @@ body {
   background: @white;
   font-size: 14px;
   font-family: 'Microsoft YaHei', SimSun, SimHei;
+  color:#444;
 
   &.body_bg {
     background: @bg1;
@@ -82,7 +83,16 @@ body {
     }
   }
 }
-
+.com_modal{
+  background: @white;
+  .radius();
+  .boxShadow(0, 0, 5px, rgba(0, 0, 0, 0.1));
+  margin-top:30px;
+  padding:20px 30px 30px;
+  h4{
+    font-size:18px;
+  }
+}
 .com_head_2 {
   background: @white;
   padding: 0 40px;
@@ -179,6 +189,7 @@ body {
           a {
             line-height: 50px;
             display: inline-block;
+            cursor: pointer;
           }
         }
       }

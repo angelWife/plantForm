@@ -267,3 +267,81 @@
 .container_artical .artical_body .artical_msg img {
   max-width: 100%;
 }
+.container_index .index_body {
+  padding: 40px 0;
+}
+.container_index .menu_modal {
+  width: 250px;
+  border-right: 1px solid #e6e6e6;
+  padding-bottom: 20px;
+}
+.container_index .menu_modal .menu {
+  padding: 10px 0;
+  position: relative;
+  margin: 0;
+  color: #666666;
+}
+.container_index .menu_modal .menu .menu_title {
+  font-size: 18px;
+  font-weight: 500;
+}
+.container_index .menu_modal .menu .menu_title.clickable:hover {
+  background: #eff1f3;
+}
+.container_index .menu_modal .menu .menu_title a {
+  display: block;
+  padding: 0 40px;
+  height: 50px;
+  line-height: 50px;
+}
+.container_index .menu_modal .menu .menu_title a i {
+  font-size: 20px;
+  float: left;
+  color: #999999;
+}
+.container_index .menu_modal .menu .menu_title a span {
+  float: left;
+  margin-left: 15px;
+}
+.container_index .menu_modal .menu .menu_title a:hover {
+  color: inherit;
+}
+.container_index .menu_modal .menu::after {
+  position: absolute;
+  width: 45%;
+  content: '';
+  height: 1px;
+  background: #e6e6e6;
+  bottom: 0;
+  left: 80px;
+}
+.container_index .menu_modal .menu .menu_item {
+  margin: 0;
+}
+.container_index .menu_modal .menu .menu_item:hover {
+  background: #eff1f3;
+}
+.container_index .menu_modal .menu .menu_item a {
+  display: block;
+  height: 36px;
+  padding: 0 40px 0 80px;
+  line-height: 36px;
+}
+.container_index .menu_modal .menu .menu_item a:hover {
+  color: inherit;
+}
+.container_index .menu_modal .active {
+  color: #39b54a !important;
+}
+.container_index .menu_modal .active a i {
+  color: #39b54a !important;
+}
+.container_index .index_main .index_main_box {
+  min-height: 700px;
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.container_index .index_main .index_main_box h2 {
+  font-size: 26px;
+}
